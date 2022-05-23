@@ -27,7 +27,7 @@ runs:
           echo "Invalid tag $TAG"
           exit 1
         fi
-        if [[ "$SHA" =~ ^[0-9a-f]{32}$ ]]; then
+        if [[ "$SHA" =~ ^[0-9a-f]{40}$ ]]; then
           echo "Valid sha $SHA"
         else
           echo "Invalid sha $SHA"
