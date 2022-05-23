@@ -20,7 +20,6 @@ on:
   push:
     tags:
       - '*.*.*'
-
 jobs:
   auto-tag:
     name: Auto-tag
@@ -30,4 +29,6 @@ jobs:
         uses: emteknetnz/gha-auto-tag@v0.1
         with:
           ref: ${{ github.ref }}
+          sha: ${{ github.sha }}
+
 ```

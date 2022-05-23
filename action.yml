@@ -1,5 +1,5 @@
-name: Auto tag
-description: GitHub Action to automatically delete and re-release tags so that other modules can use something similar to carets
+name: Auto-tag
+description: Automatically delete and re-release tags so that other github action modules can use something similar to carets e.g. v0.1 or v3
 inputs:
   ref:
     type: string
