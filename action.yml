@@ -34,7 +34,7 @@ runs:
           exit 1
         fi
 
-     - name: Generate tag name
+    - name: Generate tag name
         id: generate_tag_name
         shell: bash
         env:
